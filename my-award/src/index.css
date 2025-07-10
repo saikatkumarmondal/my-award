@@ -21,7 +21,7 @@ body {
     background-color: black;
     color: white;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    overflow: hidden !important;
 }
 
 @utility flex-center {
@@ -37,7 +37,7 @@ body {
 }
 
 @utility text-gradient {
-    background: linear-gradient(to bottom, #ffffff, #898989);
+    background: linear-gradient(to bottom, #f8d5dc, #fcc2ce);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
